@@ -1,0 +1,168 @@
+#skills h4 {
+    font-size: 80%;
+    text-transform: uppercase;
+    padding-right: 20px;
+    line-height: 1.5em;
+    padding-bottom: 0.5em;
+}
+
+#skills .skill {
+    padding: 1em 0em;
+}
+
+#skills .skill .bar {
+    background: none repeat scroll 0 0 #F0F3F5;
+    height: 10px;
+    line-height: 0em;
+}
+
+#skills .skill span {
+    display: inline-block,
+}
+
+/*Bars---------------------------------------------*/
+
+#skills .skill .bar span {
+    min-width: 1%;
+    display: inline-block;
+    height: 10px;
+}
+
+#skills .skill .bar span.trade {
+}
+
+#skills .skill .bar span.experience {
+}
+
+#skills .skill .bar span.interest {
+
+}
+
+/*Grade---------------------------------------------*/
+
+span.great {
+    background: #6BD4C8;
+}
+
+span.good {
+    background: #EFDC5C;
+}
+
+span.better {
+    background: #FF9875;
+}
+
+/*Specifics---------------------------------------------*/
+
+#product-design span {
+    width: 98%;
+}
+
+#user-flows span {
+    width: 95%;
+}
+
+#html span {
+    width: 95%;
+}
+
+#php span{
+    width: 50%;
+}
+
+#javascript span{
+    width: 35%;
+}
+
+#visual-storytelling span {
+    width: 90%;
+}
+
+#workshop span {
+    width: 71%;
+}
+
+#wordpress span {
+    width: 67%;
+}
+
+#public-speaking span{
+    width: 90%;
+}
+
+#teaching span {
+    width: 76%;
+}
+
+#workshop-facilitation span{
+    width: 65%;
+}
+
+#running span {
+    width: 82%;
+}
+
+#cycling span {
+    width: 60%;
+}
+
+#pictionary span {
+ width: 86%;
+}
+
+#cooking span {
+    width: 85%;
+}
+
+#eating-fruit span{
+    width: 98%;
+}
+
+#parking span {
+    width: 25%;
+}
+
+#swimming span {
+    width: 5%;
+}
+#globetrotting span {
+    width: 73%;
+}
+
+/*-----------------------------------------------------*/
+
+@media screen and (min-width: 0px) and (max-width: 489px) {
+    #skills {
+            padding: 30px 60px 0px 30px;
+    }
+}
+
+/*-----------------------------------------------------*/
+
+@media screen and (min-width: 490px) and (max-width: 769px) {
+    #skills {
+            padding: 30px 60px 0px 30px;
+    }
+}
+
+/*-----------------------------------------------------*/
+@media screen and (min-width: 770px) and (max-width: 1024px) {
+    #skills {
+        padding: 30px 60px 0px 30px;
+    }
+}
+/*-----------------------------------------------------*/
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    #skills {
+        padding: 30px 60px;
+    }
+}
+
+/*-----------------------------------------------------*/
+
+@media screen and (min-width: 1281px) {
+    #skills {
+        padding: 30px 60px 0px 30px;
+    }
+}

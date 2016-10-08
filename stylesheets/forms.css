@@ -1,0 +1,160 @@
+/*Contact---------------------------------------------*/
+
+.checkin {
+    background: rgba(255,150,118,0.5);
+    padding: 0em 0.2em;
+}
+
+.confirmation {
+    color: rgba(253,253,253,0.85);
+    font-family: Varela;
+    font-size: 100%;
+    text-align: center;
+}
+
+.confirmation div {
+    padding: 10px 0px;
+}
+
+.error {
+    background-color: #FF9676;
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.success {
+    background-color: #6BD1C5;
+}
+
+/*Forms------------------------------------------------*/
+
+#contact-form {
+    color: rgba(253,253,253,0.75);
+    background: #7994a7;
+    line-height: 3em;
+}
+
+#contact-form form {
+    max-width: 75%;
+    margin: 0em auto;
+}
+
+
+#contact-form p.tip {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 100%;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+#contact-form p.tip strong {
+    color: rgba(253,253,253,1.0);
+}
+
+#contact-form p.tip:first-child {
+    font-size: 125%;
+    color: #fdfdfd;
+}
+
+#contact-form label,
+#contact-form input {
+    font-size: 300%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+}
+
+#contact-form input {
+    border-width: 0px 0px 1px 0px;
+    border-style: dotted;
+    border-color: rgba(255,255,255,0.5);
+    background: #7994a7;
+    margin: 0px;
+    min-width: 100px;
+    max-width: 100%;
+    color: rgba(255,255,255,1.0);
+    text-align:center;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -ms-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+
+#contact-form input:focus {
+    border-bottom-color: #fff;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -ms-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+
+#name input {
+    text-transform: capitalize;
+    width: 35%;
+}
+
+#email-address input {
+    width: 45%;
+}
+
+#message input {
+    width: 99.5%;
+    text-align: left;
+}
+
+#submit-button {
+    text-align: center;
+    margin: 0.5em 0em 1em;
+}
+
+#verfication {
+    display: block;
+    font-size: 50%;
+    margin-bottom: 2em;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 2em;
+    text-align: center;
+}
+
+#verfication label {
+    color: rgba(255,255,255,0.5);
+}
+
+#submit-button input {
+    background: rgba(253,253,253,0.25);
+    border-bottom-width: 0px;
+    border-radius: 2px;
+    color: rgba(253,253,253,1.0);
+    padding: 4px 0px 6px;
+    border-color: transparent;
+    font-weight: 700;
+    font-size: 150%;
+}
+
+/*Media Queries---------------------------------------------*/
+
+@media screen and (min-width: 0px) and (max-width: 489px) {
+    #contact-form form {
+        max-width: 100%;
+    }
+}
+
+/*----------------------------------------------------------*/
+
+@media screen and (min-width: 490px) and (max-width: 1024px) {
+
+}
+
+/*----------------------------------------------------------*/
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+
+}
+
+/*----------------------------------------------------------*/
+
+@media screen and (min-width: 1281px) {
+
+}
